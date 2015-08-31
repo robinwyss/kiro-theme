@@ -524,7 +524,6 @@ a:active {
 .main-navigation {
 	clear: both;
 	display: block;
-	float: left;
 	width: 100%;
 }
 
@@ -887,4 +886,127 @@ object {
 
 .gallery-caption {
 	display: block;
+}
+
+######################
+# Custom
+######################
+html, body {
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	background-color: #FFF;
+	color: grey;
+}
+
+a, a:visited, a:active {
+	text-decoration: none;
+	color: grey;
+}
+
+.wrapper {
+	min-height: 100%;
+	position: relative;
+	max-width: 1200px;
+	min-width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+.container {
+	padding: 20px 30px 100px;
+
+}
+
+.header {
+	border-bottom: 1px solid lightgrey;
+}
+
+.content {
+	padding: 20px;
+	border-left: 1px solid lightgrey;
+	min-height: 1000px;
+}
+
+.footer-content {
+	padding: 20px;
+	border-top: 1px solid lightgrey;
+}
+
+.side-menu {
+	padding: 10px;
+}
+
+.site-description {
+	font-size: 13px;
+}
+
+.pure-g > div {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*
+* WIDGET AREA
+*/
+.widget-area h2 {
+	font-weight: normal;
+	font-size: 1em;
+	line-height: 0;
+}
+
+.widget-area ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.widget-area ul  li{
+	padding: 0;
+	margin: 0;
+	height: 100%;
+}
+
+.widget-area ul  li a {
+	padding: 0em 1em;
+	color: #777;
+	display: block;
+	text-decoration: none;
+	white-space: nowrap;
+	font-size: 13px;
+}
+
+.widget-area ul  li a:hover {
+	background-color: #eee;
+}
+
+.widget-area aside {
+	margin-top: 28px;
+}
+
+
+/* MENU */
+.menu > ul {
+	display: inline-block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	border-bottom: 1px solid lightgrey;
+	width: 100%;
+}
+
+.menu > ul > li {
+	padding: 0;
+	margin: 0;
+	height: 100%;
+}
+
+.menu > ul > li > a {
+	padding: .5em 1em;
+	display: block;
+	text-decoration: none;
+	white-space: nowrap;
+}
+.menu ul li a:hover {
+	background-color: #eee;
 }

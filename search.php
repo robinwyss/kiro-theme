@@ -8,7 +8,10 @@
  */
 
 get_header(); ?>
-
+<div class="pure-u-1-3 left-pane">
+	<?php get_sidebar(); ?>
+</div>
+<div class="pure-u-2-3 content">
 	<section id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
@@ -42,6 +45,5 @@ get_header(); ?>
 
 		</main><!-- #main -->
 	</section><!-- #primary -->
-
-<?php get_sidebar(); ?>
+</div>
 <?php get_footer(); ?>

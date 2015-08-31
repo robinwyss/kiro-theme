@@ -11,18 +11,15 @@
 
 ?>
 
-	</div><!-- #content -->
+<div class="pure-u-1 footer">
+	<div class="footer-content">
+		© KIRO
+		<?php wp_footer(); ?>
+	</div>
+</div>
 
-	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'kiro-theme' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'kiro-theme' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'kiro-theme' ), 'kiro-theme', '<a href="http://underscores.me/" rel="designer">Underscores.me</a>' ); ?>
-		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
-</div><!-- #page -->
 
 <?php wp_footer(); ?>
-
+</div>
 </body>
 </html>
