@@ -1010,3 +1010,7 @@ a, a:visited, a:active {
 .menu ul li a:hover {
 	background-color: #eee;
 }
+
+footer.entry-footer > span {
+	margin-right: 15px;
+}
